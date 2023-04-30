@@ -33,7 +33,7 @@ const App = () => {
             href="https://www.linkedin.com/in/rahulray131/"
             target="_blank"
           >
-            <p className="pb-2 text-2xl text-blue-900" target="_blank">
+            <p className="pb-2 text-3xl text-blue-900" target="_blank">
               <BsLinkedin />
             </p>
 
@@ -61,7 +61,7 @@ const App = () => {
             href="https://github.com/raahul131"
             target="_blank"
           >
-            <p className="pb-2 text-2xl text-black" target="_blank">
+            <p className="pb-2 text-3xl text-black" target="_blank">
               <BsGithub />
             </p>
 
@@ -105,7 +105,7 @@ const App = () => {
             href="https://www.instagram.com/in/rahulray_0131/"
             target="_blank"
           >
-            <p className="pb-2 text-2xl text-pink-600" target="_blank">
+            <p className="pb-2 text-3xl text-pink-600" target="_blank">
               <BsInstagram />
             </p>
 
@@ -117,12 +117,12 @@ const App = () => {
             href="/"
             target="_blank"
           >
-            <p className="pb-2 text-4xl text-blue-900" target="_blank">
+            <p className="pb-2 text-3xl text-blue-900" target="_blank">
               <BsFacebook />
             </p>
 
             <p className="text-gray-900 pb-5 font-mono font-bold">
-              Personal Portfolio
+              Facebook
             </p>
           </a>
 
@@ -131,7 +131,7 @@ const App = () => {
             href="https://youtube.com/"
             target="_blank"
           >
-            <p className="pb-2 text-2xl text-red-600" target="_blank">
+            <p className="pb-2 text-3xl text-red-600" target="_blank">
               <BsYoutube />
             </p>
 
@@ -140,6 +140,10 @@ const App = () => {
             </p>
           </a>
         </section>
+
+        <footer className="flex justify-center text-white font-thin mb-3">
+          Rahul R Yadav @2023
+        </footer>
       </div>
     </>
   );
